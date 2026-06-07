@@ -1,5 +1,7 @@
-let texto = prompt("Digite uma palavra ou frase:");
+let primeiroNumero = parseInt(prompt("Digite o primeiro número:"));
 
-let textoFormatado = texto.toLowerCase();
+let segundoNumero = parseInt(prompt("Digite o segundo número:"));
 
-document.getElementById("mensagem").innerText = textoFormatado;
+const comparacao = primeiroNumero == segundoNumero ? "São iguais" : "Não são iguais";
+
+document.getElementById("mensagem").innerText = comparacao;

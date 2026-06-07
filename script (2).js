@@ -1,8 +1,5 @@
-let numero = parseFloat(prompt("Digite um valor numérico:"))
+let idade = parseInt(prompt("Digite sua idade:"));
 
-const formatacao = new Intl.NumberFormat('pt-BR', {
-    style: 'currency',
-    currency: 'BRL',
-});
+const validacao = idade >=16 ? "Pode entrar" : "Não pode entrar";
 
-document.getElementById("mensagem").innerText = formatacao.format(numero);
+document.getElementById("mensagem").innerText = validacao;

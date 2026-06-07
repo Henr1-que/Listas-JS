@@ -1,5 +1,5 @@
-let texto = prompt("Digite uma palavra ou frase:");
+let idade = parseInt(prompt("Digite sua idade:"));
 
-let textoFormatado = texto.toUpperCase();
+const validacao = idade >=18 ? "Maior de idade" : "Menor de idade";
 
-document.getElementById("mensagem").innerText = textoFormatado;
+document.getElementById("mensagem").innerText = validacao;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EX002 - Converter Letras para Maiúsculas</title>
+    <title>EX002 - Maioridade</title>
 </head>
 <body>
     <p id="mensagem"></p>

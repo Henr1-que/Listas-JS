@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EX004 - Contar o Número de Letras no Primeiro Nome</title>
+    <title>EX004 - Comparação de Idades</title>
 </head>
 <body>
     <p id="mensagem"></p>
