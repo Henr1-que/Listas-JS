@@ -1,10 +1,12 @@
-let primeiroValor = prompt("Informe o primeiro valor:")
-let segundoValor = prompt("Informe o segundo valor:")
-
-let suporte
-
-suporte = primeiroValor
-primeiroValor = segundoValor
-segundoValor = suporte
-
-document.getElementById("mensagem").innerText = `Valores invertidos: ${primeiroValor}, ${segundoValor}`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX002 - Converter Letras para Maiúsculas</title>
+</head>
+<body>
+    <p id="mensagem"></p>
+    <script src="./script.js"></script>
+</body>
+</html>
