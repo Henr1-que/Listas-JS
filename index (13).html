@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+let btn = document.querySelector("#btn")
+let textInput = document.querySelector('#textInput')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EX005 -  Verificar Votação Obrigatória</title>
-</head>
+function showText(){
+    let output = textInput.value
 
-<body>
-    <p id="mensagem"></p>
-    <script src="./script.js"></script>
-</body>
+    document.getElementById("output").innerText = `${output}`
+}
 
-</html>
+btn.addEventListener("click", showText)

@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ex015 - Área do Retângulo</title>
-</head>
-<body>
-  <p id="mensagem"></p>
-  <script src="./script.js"></script>
-</body>
-</html>
+let valorDolares = Number(prompt("Informe o valor em dólares para a conversão:"))
+
+function converterDolarParaReal(valorDolares){
+    let conversao = valorDolares * 5.65
+    document.getElementById("output").innerText =  `${valorDolares}USD = R$${conversao.toFixed(2)}`
+}
+
+document.addEventListener("input", converterDolarParaReal(valorDolares))

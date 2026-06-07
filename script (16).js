@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+let btn = document.querySelector("#btn")
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EX006 - Classificar Nota em Conceito</title>
-</head>
+function showText(){
+    document.getElementById("output").innerHTML = "<b><i>Texto apareceu, uau</i></b>"
+}
 
-<body>
-    <p id="mensagem"></p>
-    <script src="./script.js"></script>
-</body>
-
-</html>
+btn.onclick = showText

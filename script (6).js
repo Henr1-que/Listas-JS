@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ex014 - Área do Quadrado</title>
-</head>
-<body>
-  <p id="mensagem"></p>
-  <script src="./script.js"></script>
-</body>
-</html>
+let numero = Number(prompt("Informe um número:"))
+
+function quadrado(numero){
+    let resultado = numero * numero
+    alert(`${numero}² = ${resultado}`)
+}
+
+document.addEventListener("input", quadrado(numero))

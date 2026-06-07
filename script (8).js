@@ -1,5 +1,12 @@
-let valorCompra = parseFloat(prompt("Informe o valor total da compra:"))
-
-let precoFinal = valorCompra > 100 ? valorCompra * 0.90 : valorCompra
-
-document.getElementById("mensagem").innerText = `O valor final de sua compra é: R$${precoFinal}`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX003 - Conversor de Moeda</title>
+</head>
+<body>
+    <p id="output"></p>
+    <script src="./script.js"></script>
+</body>
+</html>
