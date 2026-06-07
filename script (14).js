@@ -1,5 +1,5 @@
-let idade = parseInt(prompt("Digite sua idade:"));
+let idade = parseInt(prompt("Informe sua idade:"))
 
-const verificacao = idade >=18 ? "Pode tirar habilitação" : "Não pode tirar habilitação";
+let mensagem = idade >=18 && idade <70 ? "Voto obrigatório" : "Voto não obrigatório"
 
-document.getElementById("mensagem").innerText = verificacao;
+document.getElementById("mensagem").innerText = mensagem

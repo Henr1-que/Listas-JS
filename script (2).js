@@ -1,5 +1,5 @@
-let idade = parseInt(prompt("Digite sua idade:"));
+let macasCompradas = parseInt(prompt("Informe quantas maçãs foram compradas:"))
 
-const validacao = idade >=16 ? "Pode entrar" : "Não pode entrar";
+let preco = macasCompradas <12 ? macasCompradas * 1.30 : macasCompradas
 
-document.getElementById("mensagem").innerText = validacao;
+document.getElementById("mensagem").innerText = `O valor total da compra é de R$${preco}`

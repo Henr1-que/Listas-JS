@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EX004 - Comparação de Idades</title>
+    <title>EX004 - Classificar Temperatura</title>
 </head>
 <body>
     <p id="mensagem"></p>

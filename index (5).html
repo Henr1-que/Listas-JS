@@ -1,5 +1,15 @@
-let idade = parseInt(prompt("Digite sua idade:"));
+let primeiroNumero = parseInt(prompt("Informe o primeiro número:"))
+let segundoNumero = parseInt(prompt("Informe o segundo número:"))
+let terceiroNumero = parseInt(prompt("Informe o terceiro número:"))
 
-const validacao = idade >=18 ? "Maior de idade" : "Menor de idade";
+let maiorNumero
 
-document.getElementById("mensagem").innerText = validacao;
+if (primeiroNumero > segundoNumero && primeiroNumero > terceiroNumero){
+    maiorNumero = primeiroNumero
+} else if (segundoNumero > primeiroNumero && segundoNumero > terceiroNumero){
+    maiorNumero = segundoNumero
+} else {
+    maiorNumero = terceiroNumero
+}
+
+document.getElementById("mensagem").innerText = `O maior número é: ${maiorNumero}`

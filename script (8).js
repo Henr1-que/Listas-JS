@@ -1,7 +1,5 @@
-let primeiroNumero = parseInt(prompt("Digite o primeiro número:"));
+let valorCompra = parseFloat(prompt("Informe o valor total da compra:"))
 
-let segundoNumero = parseInt(prompt("Digite o segundo número:"));
+let precoFinal = valorCompra > 100 ? valorCompra * 0.90 : valorCompra
 
-const comparacao = primeiroNumero == segundoNumero ? "São iguais" : "Não são iguais";
-
-document.getElementById("mensagem").innerText = comparacao;
+document.getElementById("mensagem").innerText = `O valor final de sua compra é: R$${precoFinal}`

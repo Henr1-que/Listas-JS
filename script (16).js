@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EX006 - Cálculo de IMC</title>
+    <title>EX006 - Classificar Nota em Conceito</title>
 </head>
 
 <body>

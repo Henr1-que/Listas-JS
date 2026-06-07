@@ -1,19 +1,16 @@
-let peso = parseFloat(prompt("Insira seu peso:"));
+let nota = parseInt(prompt("Insira uma nota de 0 a 100:"))
+let mensagem
 
-let altura = parseFloat(prompt("Insira sua altura:"));
-
-let imc = peso / altura ** 2
-
-let mensagem;
-
-if (imc < 18.5){
-    mensagem = "Abaixo do peso"
-} else if (imc >= 18.5 && imc <= 24.9 ) {
-    mensagem = "Peso normal"
-} else if (imc >= 25 && imc <=29.9){
-    mensagem = "Sobrepeso"
+if (nota >=90){
+    mensagem = "A"
+} else if (nota >=80 && nota <=89){
+    mensagem = "B"
+} else if (nota >=70 && nota <=79){
+    mensagem = "C"
+} else if (nota >=60 && nota <=69){
+    mensagem = "D"
 } else {
-    mensagem = "Obesidade"
+    mensagem = "F"
 }
 
-document.getElementById("mensagem").innerText = mensagem;
+document.getElementById("mensagem").innerText = mensagem
