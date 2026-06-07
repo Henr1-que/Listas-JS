@@ -1,9 +1,11 @@
-let title = document.querySelector("#title")
-let btn = document.querySelector("#btn")
-
-
-function switchTitle() {
-    title.textContent = "Texto atualizado"
-}
-
-btn.addEventListener("click", switchTitle)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex008 - Remove o último e mostra quantos sobraram</title>
+</head>
+<body>
+  <script src="./script.js"></script>
+</body>
+</html>

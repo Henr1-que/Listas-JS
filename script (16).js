@@ -1,7 +1,11 @@
-let btn = document.querySelector("#btn")
-
-function showText(){
-    document.getElementById("output").innerHTML = "<b><i>Texto apareceu, uau</i></b>"
-}
-
-btn.onclick = showText
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex006 - Verificando se um item existe</title>
+</head>
+<body>
+  <script src="./script.js"></script>
+</body>
+</html>

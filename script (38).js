@@ -1,5 +1,4 @@
-let nome = prompt("Digite seu nome:");
+let teamList = ["Flamengo", "Vasco", "Santos", "São Paulo"]
 
-const verificacao = nome.length > 5 ? "Nome longo" : "Nome curto"
-
-document.getElementById("mensagem").innerText = verificacao;
+teamList.unshift("Bragantino")
+teamList.pop()

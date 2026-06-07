@@ -1,5 +1,6 @@
-let palavra = prompt("Digite uma palavra:")
+let shopList = ["Roupa", "Sapato", "Cinto"]
 
-const verificacao = palavra == "Javascript" ? "Você escolheu a linguagem correta!" : "Escolha outra linguagem.";
+shopList.push("Meia")
+shopList.shift()
 
-document.getElementById("mensagem").innerText = verificacao;
+console.log(shopList)

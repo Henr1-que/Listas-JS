@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EX002 - Determinar o Maior de Três Números</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex002 - Removendo o último item</title>
 </head>
 <body>
-    <p id="mensagem"></p>
-    <script src="./script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

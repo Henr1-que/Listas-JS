@@ -1,5 +1,3 @@
-let idade = parseInt(prompt("Informe sua idade:"))
+let animalList = ["Girafa", "Leão", "Arara", "Macaco", "Boi"]
 
-let mensagem = idade >=18 && idade <70 ? "Voto obrigatório" : "Voto não obrigatório"
-
-document.getElementById("mensagem").innerText = mensagem
+console.log(animalList.length)
